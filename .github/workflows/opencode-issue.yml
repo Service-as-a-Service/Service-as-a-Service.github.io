@@ -38,7 +38,4 @@ jobs:
         with:
           model: opencode/big-pickle
           prompt: |
-            Review this issue. If there's a clear fix or relevant docs:
-            - Provide documentation links
-            - Add error handling guidance for code examples
-            Otherwise, do not comment.
+            Plan and implement this
