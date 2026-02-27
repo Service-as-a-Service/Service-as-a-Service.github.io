@@ -26,6 +26,6 @@ jobs:
         env:
           AWS_BEARER_TOKEN_BEDROCK: ${{ secrets.AWS_BEARER_TOKEN_BEDROCK }}
         with:
-          model: anthropic/claude-sonnet-4-20250514
+          model: amazon-bedrock/anthropic.claude-opus-4-6-v1
           # share: true
           # github_token: xxxx
